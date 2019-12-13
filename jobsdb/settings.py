@@ -25,7 +25,7 @@ SECRET_KEY = 'cj4a9@4ws*ha@*@p*6rzabyv@f9w&quc(9fqcl37k_+(v#uwd5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jobsdbalta.pythonanywhere.com']
 
 
 # Application definition
@@ -124,3 +124,6 @@ USE_THOUSAND_SEPARATOR = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'jobsdbApp', STATIC_URL)
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
